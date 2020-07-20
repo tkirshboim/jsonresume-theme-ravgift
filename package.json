@@ -1,11 +1,10 @@
 {
-  "name": "jsonresume-theme-macchiato",
-  "version": "1.1.0",
-  "description": "Simple theme for JSON Resume. Based on caffeine-theme.",
-  "author": "Alessandro Biondi",
+  "name": "jsonresume-theme-ravgift",
+  "version": "1.0.0",
+  "description": "JSON Resume theme. Based on macchiato-theme.",
+  "author": "Tal Kirshboim",
   "scripts": {
-    "test": "jest",
-    "prepublishOnly": "npm run pretty && npm run lint && npm run test",
+    "prepublishOnly": "npm run pretty && npm run lint",
     "pretty": "prettier --write --ignore-path='*lock.json' '{src/**/*.{js,ts,json},./*{js,ts,json}}' ",
     "lint": "eslint *.js"
   },
@@ -18,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/biosan/jsonresume-theme-macchiato"
+    "url": "https://github.com/tkirshboim/jsonresume-theme-ravgift"
   },
   "license": "MIT",
   "dependencies": {
@@ -34,11 +33,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "husky": "~3.0.9",
-    "jest": "^24.9.0",
-    "jest-handlebars": "^1.0.1",
-    "jest-image-snapshot": "^2.11.0",
-    "prettier": "^1.18.2",
-    "puppeteer": "^2.0.0"
+    "prettier": "^1.18.2"
   },
   "jest": {
     "transform": {
